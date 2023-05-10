@@ -2,6 +2,7 @@ const {hashPass,hashCompare,createToken,decodeToken,validate,roleAdmin} = requir
 const {AppointmentModel} = require('../schema/Appointment')
 const { UserModel } = require('../schema/UserSchema')
 
+
 let handleHome=async(req,res,next)=>{
     res.send(`<h1>Welcome to Back-end ExpressJS Home Page..! </h1>`)
   }
